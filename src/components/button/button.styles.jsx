@@ -6,7 +6,7 @@ export const BaseButton = styled.button`
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 0 35px 0 35px;
+  padding: 0 35px;
   font-size: 14px;
   background-color: black;
   color: white;
@@ -26,6 +26,7 @@ export const BaseButton = styled.button`
 `;
 
 export const GoogleSignInButton = styled(BaseButton)`
+  padding: 0 25px;
   background-color: #4285f4;
   color: white;
 
